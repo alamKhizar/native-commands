@@ -10,43 +10,6 @@ adding custom font steps:
 expo install expo-font
 import { useFonts } from 'expo-font';
 
-250535
-
-
-------------------
-khizaralam0982 khizaralam:
-1269 7384
-3410 7928
-6372 8509
-5968 7032
-2960 7534
-------------------
-
-------------------
-kzralam09 :
-6173  4058
-7469 2081
-8795 6132
-6902 8543
-0296 8751
-------------------
-
-mai khizr20:
-3195 8913
-1015 2255
-0458 8378
-6414 6527
-4132 4181
-8108 3780
-9370 2243
-7802 8300
-8986 7001
-5595 9260
-
-
-
-
-
  //useFonts
     useFonts({
         'poppins-regular' : require('./assets/fonts/Poppins Regular.ttf'),
@@ -73,13 +36,6 @@ if(!fontsLoaded){
  "lightBlue":'#3450A1'
  "shadeBlue":'#88A5F6'
  "pink":'#F802FF'
- 
- 
- kzr09
- rom.hom0981
- @ROM-hom][0981
- 
- 
  
  
 ------------------------------ 
@@ -120,9 +76,6 @@ const styles = StyleSheet.create({
 
 export default App;
 
- 
-1786-5309-7371 pin
- 
  
  
 ---------------------- 
