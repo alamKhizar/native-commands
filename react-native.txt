@@ -1,0 +1,225 @@
+npm install -g expo-cli
+expo init project_name
+npx expo start -c
+
+
+-------------------------
+adding custom font steps:
+-------------------------
+
+expo install expo-font
+import { useFonts } from 'expo-font';
+
+250535
+
+
+------------------
+khizaralam0982 khizaralam:
+1269 7384
+3410 7928
+6372 8509
+5968 7032
+2960 7534
+------------------
+
+------------------
+kzralam09 :
+6173  4058
+7469 2081
+8795 6132
+6902 8543
+0296 8751
+------------------
+
+mai khizr20:
+3195 8913
+1015 2255
+0458 8378
+6414 6527
+4132 4181
+8108 3780
+9370 2243
+7802 8300
+8986 7001
+5595 9260
+
+
+
+
+
+ //useFonts
+    useFonts({
+        'poppins-regular' : require('./assets/fonts/Poppins Regular.ttf'),
+        'poppins-bold' : require('./assets/fonts/Poppins Bold.ttf'),
+        'poppins-light' : require('./assets/fonts/Poppins Light.ttf')
+    });
+	
+expo install expo-app-loading
+import AppLoading from 'expo-app-loading';
+ //useFont
+  const [fontsLoaded] = useFonts({
+     'Anton_Regular': require('../assets/fonts/Anton_Regular.ttf')
+});
+
+if(!fontsLoaded){
+  return <AppLoading/>
+}	
+
+	
+ {addTask.map((goals)=> <Text key={goals} style={styles.textStyle}>{goals}</Text>)}
+ 
+ 
+ "darkBlue" :'#051956'
+ "lightBlue":'#3450A1'
+ "shadeBlue":'#88A5F6'
+ "pink":'#F802FF'
+ 
+ 
+ kzr09
+ rom.hom0981
+ @ROM-hom][0981
+ 
+ 
+ 
+ 
+------------------------------ 
+add check box 
+------------------------------
+
+
+
+npm install react-native-elements
+npm install @react-native-community/checkbox
+
+
+import React, { useState } from 'react';
+import { View, StyleSheet } from 'react-native';
+import { CheckBox } from 'react-native-elements';
+
+const App = () => {
+  const [isChecked, setIsChecked] = useState(false);
+
+  return (
+    <View style={styles.container}>
+      <CheckBox
+        title="Click Here"
+        checked={isChecked}
+        onPress={() => setIsChecked(!isChecked)}
+      />
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+});
+
+export default App;
+
+ 
+1786-5309-7371 pin
+ 
+ 
+ 
+---------------------- 
+ICON BUTOON 
+----------------------
+
+
+ 
+ 
+import {Ionicons} from '@expo/vector-icons'
+
+
+
+------------------------ 
+yup validation package 
+------------------------
+
+npm install yup
+import * as yup from 'yup'
+
+
+
+
+------------------------
+lottie react native
+------------------------
+
+npm i lottie-react-native
+
+
+
+
+------------------------
+animated switch
+------------------------
+
+npm i react-native-animated-switch
+
+https://www.freelancer.pk/contest/logo-design-for-eventjet-a-saas-event-management-application-2425205
+
+
+
+------------------------
+REACT NAVIGATION 
+------------------------
+
+npm install @react-navigation/native
+
+if expo using: npx expo install react-native-screens react-native-safe-area-context
+
+import {NavigationContainer} from '@react-navigation/native';
+
+
+then there are multiple navigators like drawer,bottom tabs , stack navigator etc
+
+
+expo install @react-navigation/native-stack
+
+import { NavigationContainer } from '@react-navigation/native';
+
+
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
+
+
+
+<NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Instagram" component={HelloWorldScreen}/>
+      </Stack.Navigator>
+    </NavigationContainer>
+	
+	
+	
+
+
+
+
+
+------------------------
+REDUX INSTALLATION
+------------------------
+
+npm install react-redux
+npm i redux
+npm i @reduxjs/toolkit
+
+
+create a folder name redux in components:
+-Action
+-Reducer
+-RootReducer
+-Store
+
+
+then we have to make a constant file which will be used by both action and reducer to make content sync
+for example
+constant.js:
+	export const ADD_TO_CART = 'add_to_cart'
+	
+
