@@ -176,3 +176,17 @@ constant.js:
 	export const ADD_TO_CART = 'add_to_cart'
 	
 
+
+-----------------------------------------------------
+
+One time configure project command with basic setup
+------------------------------------------------------
+
+
+expo install expo-font && npm install react-native-elements && npm install @react-navigation/native && npx expo install react-native-screens react-native-safe-area-context && expo install @react-navigation/native-stack && npm install react-redux && npm i redux && npm i @reduxjs/toolkit && expo install expo-app-loading
+
+
+
+
+
+
