@@ -187,6 +187,16 @@ expo install expo-font && npm install react-native-elements && npm install @reac
 
 
 
+------------------------------------------------------
+
+expo firebase install --
+
+------------------------------------------------------
+
+npx expo install firebase
+
+
+
 
 
 
