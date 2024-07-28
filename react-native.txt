@@ -183,8 +183,8 @@ One time configure project command with basic setup
 ------------------------------------------------------
 
 
-expo install expo-font && npm install react-native-elements && npm install @react-navigation/native && npx expo install react-native-screens react-native-safe-area-context && expo install @react-navigation/native-stack && npm install react-redux && npm i redux && npm i @reduxjs/toolkit && expo install expo-app-loading
-
+expo install expo-font && npm install react-native-elements && npm install @react-navigation/native && npx expo install react-native-screens react-native-safe-area-context && expo install @react-navigation/native-stack && npm install react-redux && npm i redux && npm i @reduxjs/toolkit && expo install expo-app-loading && npx expo install firebase
+ 
 
 
 ------------------------------------------------------
@@ -195,8 +195,33 @@ expo firebase install --
 
 npx expo install firebase
 
+then
+//import getAuth
+import { getAuth } from "firebase/auth";
+
+then
+export const FIREBASE_AUTH = getAuth(FIREBASE_APP);
 
 
+then
+npx expo customize metro.config.js
 
 
+---------------------------
+
+Bare Workflow procedure
+
+---------------------------
+
+
+first 
+expo init
+[when asked provide app name]
+
+then
+go for bare minimal workflow
+
+or
+
+npx react-native-init ExampleProject
 
